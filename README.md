@@ -6,8 +6,11 @@ Oracle DB Setup for this Project
 --------------------------------
 Tables for:
   Part Sizes
+  
   Storage of Parts
+  
   Location of Parts
+  
   Past Orders
 
 Every circuit breaker has an Inventor 3D file associated with it that details where on the control panel all of the parts are supposed to go.
