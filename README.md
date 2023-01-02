@@ -4,7 +4,8 @@ The goal of this project is to use robotic arms to automate the building of cont
 
 Oracle DB Setup for this Project
 --------------------------------
-Tables for:
+Tables for
+----------
 	- Part Sizes
 	- Storage of Parts
 	- Location of Parts
