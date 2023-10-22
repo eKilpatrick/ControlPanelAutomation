@@ -5,10 +5,10 @@ Imports Oracle.ManagedDataAccess.Types
 
 Public Class DALControl
     'Connection instructions for Oracle DB
-    Dim SERVER_IP As String = "161.134.200.77"
-    Dim DATABASE_NAME As String = "sfmjacks"
-    Dim DATABASE_USER As String = "SFM_RCH"
-    Dim DATABASE_PASSWORD As String = "SFMRichland$1"
+    Dim SERVER_IP As String = //ip
+    Dim DATABASE_NAME As String = //dbname
+    Dim DATABASE_USER As String = //user
+    Dim DATABASE_PASSWORD As String = //password
 
     Dim oracleString As String = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=" & SERVER_IP & ")(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)" &
                                        "(SERVICE_NAME=" & DATABASE_NAME & "))); USER ID = " & DATABASE_USER & ";Password = " & DATABASE_PASSWORD & ";"
